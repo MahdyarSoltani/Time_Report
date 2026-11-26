@@ -1,22 +1,21 @@
 {
   "name": "Logsmith",
   "short_name": "Logsmith",
+  "description": "تبدیل و مرتب‌سازی خروجی A Time Logger Pro به گزارش PDF",
   "start_url": "/Time_Report/",
   "display": "standalone",
   "background_color": "#03060a",
   "theme_color": "#03060a",
   "icons": [
     {
-      "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxOTIiIGhlaWdodD0iMTkyIiBmaWxsPSIjNGZkMWM1IiBjbGFzcz0iYmkgYmktc3RvcHdhdGNoIiB2aWV3Qm94PSIwIDAgMTYgMTYiPgogIDxwYXRoIGQ9Ik04LjUgNS42YS41LjUgMCAxIDAtMSAwdjIuOWgtM2EuNS41IDAgMCAwIDAgMUg4YS41LjUgMCAwIDAgLjUtLjV6Ii8+CiAgPHBhdGggZD0iTTYuNSAxQS41LjUgMCAwIDEgNyAuNWgyYS41LjUgMCAwIDEgMCAxdi41N2MxLjM2LjE5NiAyLjU5NC43OCAzLjU4NCAxLjY0bC4wMTItLjAxMy4zNTQtLjM1NC0uMzU0LS4zNTNhLjUuNSAwIDAgMSAuNzA3LS43MDhsMS40MTQgMS40MTVhLjUuNSAwIDEgMS0uNzA3LjcwN2wtLjM1My0uMzU0LS4zNTQuMzU0LS4wMTMuMDEyQTcgNyAwIDEgMSA3IDIuMDcxVjEuNWEuNS41IDAgMCAxLS41LS41TTggM2E2IDYgMCAxIDAgLjAwMSAxMkE2IDYgMCAwIDAgOCAzIi8+Cjwvc3ZnPg==",
+      "src": "icon-192.png",
       "sizes": "192x192",
-      "type": "image/svg+xml",
-      "purpose": "any"
+      "type": "image/png"
     },
     {
-      "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIiBmaWxsPSIjNGZkMWM1IiBjbGFzcz0iYmkgYmktc3RvcHdhdGNoIiB2aWV3Qm94PSIwIDAgMTYgMTYiPgogIDxwYXRoIGQ9Ik04LjUgNS42YS41LjUgMCAxIDAtMSAwdjIuOWgtM2EuNS41IDAgMCAwIDAgMUg4YS41LjUgMCAwIDAgLjUtLjV6Ii8+CiAgPHBhdGggZD0iTTYuNSAxQS41LjUgMCAwIDEgNyAuNWgyYS41LjUgMCAwIDEgMCAxdi41N2MxLjM2LjE5NiAyLjU5NC43OCAzLjU4NCAxLjY0bC4wMTItLjAxMy4zNTQtLjM1NC0uMzU0LS4zNTNhLjUuNSAwIDAgMSAuNzA3LS43MDhsMS40MTQgMS40MTVhLjUuNSAwIDEgMS0uNzA3LjcwN2wtLjM1My0uMzU0LS4zNTQuMzU0LS4wMTMuMDEyQTcgNyAwIDEgMSA3IDIuMDcxVjEuNWEuNS41IDAgMCAxLS41LS41TTggM2E2IDYgMCAxIDAgLjAwMSAxMkE2IDYgMCAwIDAgOCAzIi8+Cjwvc3ZnPg==",
+      "src": "icon-512.png",
       "sizes": "512x512",
-      "type": "image/svg+xml",
-      "purpose": "any"
+      "type": "image/png"
     }
   ]
 }
