@@ -6,6 +6,7 @@
 <meta name="theme-color" content="#03060a">
 <script>try{document.documentElement.dataset.theme=localStorage.getItem("theme")==="light"?"light":"dark"}catch(e){}</script>
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%E2%8F%B1%EF%B8%8F%3C/text%3E%3C/svg%3E">
+<link rel="manifest" href="manifest.json">
 <title>گزارش فعالیت‌ها</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;700&display=swap">
@@ -451,6 +452,10 @@ function setTheme(t) {
 }
 $('tt').addEventListener('click', () => setTheme(document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark'));
 setTheme(document.documentElement.dataset.theme === 'light' ? 'light' : 'dark');
+<script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/Time_Report/sw.js');
+  }
 </script>
 </body>
 </html>
