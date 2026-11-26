@@ -452,6 +452,9 @@ function setTheme(t) {
 }
 $('tt').addEventListener('click', () => setTheme(document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark'));
 setTheme(document.documentElement.dataset.theme === 'light' ? 'light' : 'dark');
+</script>
+
+<!-- کد سرویس ورکر برای نصب و کارکرد آفلاین -->
 <script>
   if ('serviceWorker' in navigator) {
     navigator.serviceWorker.register('/Time_Report/sw.js');
