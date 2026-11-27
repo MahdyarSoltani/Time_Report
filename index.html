@@ -170,7 +170,7 @@ section h3 small{color:var(--muted);font-weight:400}
 @media (min-width:600px){.wrap{padding-top:26px}}
 @media (prefers-reduced-transparency:reduce){.glass{-webkit-backdrop-filter:none;backdrop-filter:none;background:var(--solid)}}
 </style>
-<style id="pgsz">@page{size:378px 820px;margin:0}</style>
+<style id="pgsz">@page { size: A5 portrait; margin: 0; }</style>
 </head>
 <body>
 <div class="bg" aria-hidden="true"></div>
@@ -201,7 +201,7 @@ section h3 small{color:var(--muted);font-weight:400}
   <div class="dock glass">
     <div class="stat" id="stat" role="status" aria-live="polite"></div>
     <div class="dock-in">
-      <button class="btn pri" id="dl" type="button">PDF موبایل</button>
+      <button class="btn pri" id="dl" type="button" onclick="alert('در صفحه‌ای که باز می‌شود، روی گزینه Paper size کلیک کنید و A5 یا A4 را انتخاب کنید تا خروجی تمام صفحه ذخیره شود.')">PDF موبایل</button>
       <button class="btn pri" id="dlw" type="button">PDF کامپیوتر (۱۶:۹)</button>
       <button class="btn ghost" id="again" type="button">بارگذاری فایل جدید</button>
     </div>
